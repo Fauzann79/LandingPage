@@ -50,6 +50,7 @@ nav .elements {
     font-weight: bold;
     cursor: pointer;
     gap: 4px;
+
 }
 
 .btn img {
@@ -216,6 +217,97 @@ main {
 
 }
 
+.metrics {
+    width: 100%;
+    margin: auto;
+}
+
+.metrics-title {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.metrics-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.metrics-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.metrics-container {
+    width: 18%;
+    height: 68px;
+    background-color: #FFFFFF;
+    padding: 48px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 24px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.metrics-container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.metrics-container p {
+    font-size: 16px;
+    color: #6B7280;
+    margin-top: 0px;
+}
+
+.metrics-illustration {
+    margin: 0px auto;
+    padding: 120px 48px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.metrics-text {
+    width: 50%;
+}
+
+.metrics-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.metrics-text p {
+    font-size: 16px;
+
+    margin-bottom: 20px;
+}
+
+.btn1 {
+    background-color: #009379;
+    padding: 18px 24px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    width: 221px;
+    letter-spacing: 1px;
+    border: none;
+}
+
+
 @media (max-width : 850px) {
 
     nav .logo {
@@ -321,5 +413,70 @@ main {
         width: 100%;
 
     }
+
+
+
+
+    .metrics-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .metrics-container {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .metrics {
+        width: 90%;
+    }
+
+    .metrics-title h1 {
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .metrics-title p {
+        font-size: 16px;
+    }
+
+    .metrics-illustration {
+        width: 90%;
+        padding: 0px 0px;
+        flex-direction: column;
+        padding: 120px 0px;
+        gap: 0px;
+    }
+
+    .metrics-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .metrics-img img {
+        width: 450px;
+
+    }
+
+    .met {
+        width: 90%;
+        margin: auto;
+    }
+
+    .metrics {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .metrics-title {
+        text-align: center;
+        margin: 0px 0px;
+    }
+
 
 }
