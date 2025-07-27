@@ -307,6 +307,56 @@ main {
     border: none;
 }
 
+.customers-section {
+    width: 90%;
+    margin: auto;
+    padding: 120px 0px;
+}
+
+.conr {
+    width: 90%;
+    margin: auto;
+}
+
+.customers-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.customers-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.customers-content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.customers-container {
+    width: 30%;
+    height: 434px;
+    background-color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 24px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+    margin-top: 30px;
+}
+
 
 @media (max-width : 850px) {
 
@@ -476,6 +526,19 @@ main {
     .metrics-title {
         text-align: center;
         margin: 0px 0px;
+    }
+
+    .customers-content {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .customers-container {
+        width: 80%;
+        margin: auto;
+
     }
 
 
