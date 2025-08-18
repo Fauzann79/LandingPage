@@ -358,6 +358,145 @@ main {
 }
 
 
+.price {
+    width: 100% auto;
+    padding: 120px 55px;
+}
+
+.price-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.price-title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-price {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 24px;
+    font-weight: light;
+    color: #6B7280;
+}
+
+.price1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.price1 span {
+    font-size: 16px;
+    color: #6B7280;
+
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.card ul li {
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+.card2 ul li {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+.btn4 {
+    background-color: #009379;
+    padding: 18px 24px;
+    border-radius: 20px;
+    width: 100% auto;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn5 {
+    background-color: white;
+    padding: 18px 24px;
+    border-radius: 20px;
+    width: 100% auto;
+    color: #009379;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 20px;
+}
+
+.card2 {
+    background-color: #009379;
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.card ul span {
+    margin-right: 8px;
+    padding-top: 8px;
+
+}
+
+.card ul li span img {
+    width: 20px;
+    margin-top: 4px;
+}
+
+.card2 ul span {
+    margin-right: 8px;
+    padding-top: 8px;
+
+}
+
+.card2 ul li span img {
+    width: 20px;
+    margin-top: 4px;
+}
+
+
 @media (max-width : 850px) {
 
     nav .logo {
@@ -539,6 +678,42 @@ main {
         width: 80%;
         margin: auto;
 
+    }
+
+    .price {
+        width: 70% auto;
+        padding: 120px 0px;
+    }
+
+    .card {
+        margin: auto;
+        width: 80%;
+        background-color: #FFFFFF;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 24px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .card2 {
+        margin: auto;
+        width: 80%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 24px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .card-price {
+        width: 70% auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
     }
 
 
