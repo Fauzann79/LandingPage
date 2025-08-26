@@ -541,6 +541,60 @@ main {
     gap: 30px;
 }
 
+.get-started {
+    width: 90%;
+    margin: auto;
+
+}
+
+.flex-get {
+    border-radius: 40px;
+    background-color: rgb(255, 137, 94);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.getLanding {
+    width: 50%;
+    padding: 0px 60px;
+}
+
+.getLanding h1 {
+    font-size: 48px;
+    width: 450px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.getLanding p {
+    font-size: 18px;
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+.hp-img {
+    width: 50%;
+}
+
+.hp-img img {
+    width: 100%;
+}
+
+.btn6 {
+    background-color: #009379;
+    padding: 18px 48px;
+    border-radius: 20px;
+    width: 100% auto;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 20px;
+}
 
 @media (max-width : 850px) {
 
@@ -768,6 +822,26 @@ main {
         justify-content: center;
         align-items: center;
         gap: 30px;
+    }
+
+    .flex-get {
+        flex-direction: column;
+    }
+
+
+    .getLanding {
+        width: 90%;
+    }
+
+    .getLanding h1 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .getLanding p {
+        font-size: 16px;
+        margin-bottom: 20px;
     }
 
 }
